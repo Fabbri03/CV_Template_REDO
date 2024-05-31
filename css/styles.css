@@ -1,0 +1,53 @@
+/* Use this file to use your own styles*/
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* Styles for the body */
+
+body {
+	font-family: 'Manrope', sans-serif; /* Change the font family to Manrope */
+	color: #2B4205;
+	background-color: #C8A1DD;
+}
+
+/* Styles for custom classes in the document. (There are more, try to find them out!) */
+
+.resume-main {
+	background-color: hsla(111,34%,73%,1.00);
+}
+
+.resume-aside {
+	background-color: #DBE3B8;
+}
+
+/* Styles for lists in the document */
+
+.biography-details li::before, .skill-list li::before {
+	content: ">";
+	font-weight: 800;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.biography-details li::before {
+	color: #EE7623;
+}
+
+.biography-details li, .skill-list li {
+    padding-left: 1em;
+    font: signature;
+}
+
+/* Styles for contact icons */
+
+.contact-icon {
+	height: 1em;
+	flex-basis: 1.4em;
+}
+.w-10 {}
+.w-300 {}
+.w-120 {}
+.header-bg {
+	background-color:rgba(156,202,236,1.00);
+}
